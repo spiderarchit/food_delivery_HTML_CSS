@@ -1,0 +1,240 @@
+/* First of all i am going to reset my css */
+
+*{
+    padding:0;
+    margin:0;
+
+}
+
+
+.navbar::before{
+
+    content:"";
+
+    background-color: black;
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.4;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    position:relative;
+    height:60px;
+}
+
+.navbar img{
+   
+    height:40px;
+    margin:4px 15px;
+
+}
+
+.navbar ul{
+    display:flex;
+    list-style:none;
+    font-family : 'Koulen', cursive;
+}
+
+.navbar li {
+    font-size: 1.4rem;
+
+}
+
+.navbar ul li a{
+    display:block;
+    margin:10px 26px;
+      
+    padding:10px;
+
+    text-decoration: none;
+
+    border-radius: 20px;
+
+    color:white;
+}
+.navbar ul li a:hover{
+    color:black;
+    background-color: white;
+}
+
+#home{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:300px;
+    
+}
+
+#home h1{
+    margin:0px;
+    color:white;
+    font-size:1.8rem;
+    font-family: 'Koulen', cursive;
+}
+
+#home::before{
+    content:"";
+
+    background: url(../background\ image.jpg ) no-repeat center center/cover;
+    position: absolute;
+    top:0;
+    width:100%;
+    height:60%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home p{
+    color:white;
+    /* font-size:1.4rem; */
+    font-family: 'Koulen', cursive;
+}
+
+.btn{
+
+    margin:10px;
+    /* font-size:1.4rem; */
+    padding:5px;
+    color:white;
+    border:3px solid black;
+    background-color: brown;
+    cursor:pointer;
+    border-radius:10px;
+    font-family: 'Koulen', cursive;
+}
+
+.services{
+    
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary{
+    text-align: center;
+    /* font-size:3.8rem; */
+}
+
+.secondary{
+    font-size:3.8rem;
+    text-align: center;
+}
+
+.services-container{
+    margin-top: 40px;
+    font-family: 'Koulen', cursive;
+    height:450px;
+}
+
+.services{
+    margin:40px;
+}
+
+.box img{
+    height:100px;
+    display:block;
+    margin: 10px auto;
+}
+ 
+.box{
+    border:3px solid black;
+    margin:5px;
+    border-radius: 10px;
+    background-color: rgb(192, 116, 9);
+   
+}
+
+.primary1{
+   
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: 'Koulen', cursive;
+    color:white;
+
+}
+
+.logo1 img{
+   
+height:100px;
+
+}
+
+.clients{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.logo1{
+    margin:25px 50px;
+}
+
+#client-services::before{
+    content:"";
+     background: url(../background-image.jpg) no-repeat center center/cover;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+
+    opacity: 0.5;
+    
+}
+#client-services{
+    position:relative;
+    height:300px;
+}
+
+.contact-us{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    
+}
+
+.contact input{
+    padding:6px;
+    display:block;
+    width:800px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+
+.contact label{
+    font-family: 'Koulen', cursive;
+    font-size:1.7rem;
+}
+
+.contact-us::before{
+     
+    content:"";
+    background: url(../contact\ us.jpg) no-repeat center center/cover;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.76;
+    
+
+}
+
+
+.copy{
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
+
